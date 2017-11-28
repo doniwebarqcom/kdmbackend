@@ -84,6 +84,8 @@
     <script src="{{ asset('plugins/bower_components/moment/moment.js') }}"></script>
     <script src="{{ asset('plugins/bower_components/calendar/dist/fullcalendar.min.js') }}"></script>
     <script src="{{ asset('plugins/bower_components/calendar/dist/cal-init.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/toast-master/js/jquery.toast.js') }}"></script>
+    
     <!-- Custom Theme JavaScript -->
     <script src="{{ asset('js/custom.min.js') }}"></script>
     <script src="{{ asset('js/dashboard1.js') }}?version=1"></script>

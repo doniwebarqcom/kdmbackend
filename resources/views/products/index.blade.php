@@ -143,7 +143,6 @@
     <link href="{{ asset('plugins/bower_components/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
 
-    <script src="{{ asset('plugins/bower_components/toast-master/js/jquery.toast.js') }}"></script>
     <!--Style Switcher -->
     <script src="{{ asset('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') }}"></script>
     <script src="{{ asset('plugins/bower_components/datatables/jquery.dataTables.min.js') }}"></script>
