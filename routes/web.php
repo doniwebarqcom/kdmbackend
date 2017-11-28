@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// products route
+Route::get('products', 'ProductsController@index');
+
+Route::get('user', 'UsersController@index');

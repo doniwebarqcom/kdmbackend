@@ -33,16 +33,30 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <style type="text/css">
+        body {
+            font-size: 12px;
+        }
+    </style>
 </head>
 
 <body class="fix-header">
 
     @section('sidebar')
-        This is the master sidebar.
     @show
 
+     <!-- ============================================================== -->
+    <!-- Preloader -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+
     @yield('content')
-<!-- ============================================================== -->
+
+    <!-- ============================================================== -->
     <!-- End Wrapper -->
     <!-- ============================================================== -->
     <!-- ============================================================== -->
@@ -72,7 +86,7 @@
     <script src="{{ asset('plugins/bower_components/calendar/dist/cal-init.js') }}"></script>
     <!-- Custom Theme JavaScript -->
     <script src="{{ asset('js/custom.min.js') }}"></script>
-    <script src="{{ asset('js/dashboard1.js') }}"></script>
+    <script src="{{ asset('js/dashboard1.js') }}?version=1"></script>
     <!-- Custom tab JavaScript -->
     <script src="{{ asset('js/cbpFWTabs.js') }}"></script>
     <script type="text/javascript">
@@ -82,8 +96,8 @@
         });
     })();
     </script>
-    <script src="{{ asset('plugins/bower_components/toast-master/js/jquery.toast.js') }}"></script>
-    <!--Style Switcher -->
-    <script src="{{ asset('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') }}"></script>
+
+    @yield('footer-script')
+
 </body>
 </html>
