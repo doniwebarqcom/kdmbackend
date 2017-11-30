@@ -153,14 +153,14 @@
                             <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="javascript:void(0)"> <img src="{{ asset('images/people.png') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b><span class="caret"></span> </a>
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="javascript:void(0)"> <img src="{{ asset('images/people.png') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Ramdoni</b><span class="caret"></span> </a>
                         <ul class="dropdown-menu dropdown-user animated flipInY">
                             <li>
                                 <div class="dw-user-box">
-                                    <div class="u-img"><img src="../plugins/images/users/varun.jpg" alt="user" /></div>
+                                    <div class="u-img"><img src="{{ asset('images/people.png') }}" alt="user" /></div>
                                     <div class="u-text">
-                                        <h4>Steave Jobs</h4>
-                                        <p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        <h4>Ramdoni</h4>
+                                        <p class="text-muted">ramdoni@kodami.co.id</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
                                 </div>
                             </li>
                             <li role="separator" class="divider"></li>
@@ -212,14 +212,14 @@
                         <ul class="nav nav-second-level ">
                             <li><a href="<?=url('products')?>"><i class="mdi mdi-database fa-fw"></i> <span class="hide-menu">All Products</span></a></li>
 
-                            <li><a href="<?=url('category-products')?>"><i class="mdi mdi-database fa-fw"></i> <span class="hide-menu">Category Product</span></a></li>
+                            <li><a href="<?=url('product-category')?>"><i class="mdi mdi-database fa-fw"></i> <span class="hide-menu">Category Product</span></a></li>
                         </ul>
                     </li>
                     <li class="devider"></li>
                     <li> <a href="javascript:void(0)" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i> <span class="hide-menu">Report<span class="fa arrow"></span></span></a>
                         <ul class="nav nav-second-level two-li">
                             <li><a href="<?=url('report-products')?>"><i class="mdi mdi-file-document-box fa-fw"></i><span class="hide-menu">Products</span></a></li>
-                            <li><a href="<?=url('report-products-category')?>"><i class="mdi mdi-file-document-box fa-fw"></i><span class="hide-menu">Products Category</span></a></li>
+                            <li><a href="<?=url('report-product-category')?>"><i class="mdi mdi-file-document-box fa-fw"></i><span class="hide-menu">Products Category</span></a></li>
                             <li><a href="<?=url('report-member')?>"><i class="mdi mdi-file-document-box fa-fw"></i><span class="hide-menu">Member</span></a></li>
                             <li> <a href="<?=url('report-transaksi')?>" class="waves-effect"><i class="mdi mdi-library-books fa-fw"></i><span class="hide-menu">Data Transaksi</span></a> </li>
                              <li> <a href="<?=url('report-pemesanan')?>" class="waves-effect"><i class="mdi mdi-library-books fa-fw"></i><span class="hide-menu">Pemesanan</span></a> </li>

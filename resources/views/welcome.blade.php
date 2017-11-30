@@ -30,7 +30,6 @@
                         <h4 class="page-title">Dashboard 1</h4> </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <button class="right-side-toggle waves-effect waves-light btn-info btn-circle pull-right m-l-20"><i class="ti-settings text-white"></i></button>
-                        <a href="" target="_blank" class="btn btn-danger pull-right m-l-20 hidden-xs hidden-sm waves-effect waves-light">Buy Admin Now</a>
                         <ol class="breadcrumb">
                             <li><a href="javascript:void(0)">Dashboard</a></li>
                             <li class="active">Dashboard 1</li>
@@ -55,7 +54,7 @@
                                             <h3 class="counter text-right m-t-15">23</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>New projects</h4>
+                                            <h4>New Products</h4>
                                             <div class="progress">
                                                 <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                                     <span class="sr-only">40% Complete (success)</span>
@@ -73,7 +72,7 @@
                                             <h3 class="counter text-right m-t-15">76</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Total Earnings</h4>
+                                            <h4>Total Members</h4>
                                             <div class="progress">
                                                 <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                                     <span class="sr-only">40% Complete (success)</span>
@@ -91,7 +90,7 @@
                                             <h3 class="counter text-right m-t-15">93</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Total Projects</h4>
+                                            <h4>Total Products</h4>
                                             <div class="progress">
                                                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                                     <span class="sr-only">40% Complete (success)</span>
@@ -109,7 +108,7 @@
                                             <h3 class="counter text-right m-t-15">83</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Net Earnings</h4>
+                                            <h4>Total Transaksi</h4>
                                             <div class="progress">
                                                 <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                                     <span class="sr-only">40% Complete (success)</span>

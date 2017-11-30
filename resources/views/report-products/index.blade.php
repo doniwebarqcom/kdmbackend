@@ -33,7 +33,6 @@
                             <li class="active">Data Table</li>
                         </ol>
                     </div>
-
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- /row -->
